@@ -38,7 +38,7 @@ def trainFunction():
 						count = map[key]
 						count += 1 
 						map[key] = count
-					else:								#2: add key to map, counter=1
+					else:						#2: add key to map, counter=1
 						map[key] = 1
 					key = []
 					counter += 1
